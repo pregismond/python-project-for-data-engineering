@@ -18,17 +18,17 @@ A multi-national firm has hired you as a data engineer. Your job is to access an
 
 Your boss asked you to compile the list of the top 10 largest banks in the world ranked by market capitalization in billion USD. Further, you need to transform the data and store it in USD, GBP, EUR, and INR per the exchange rate information made available to you as a CSV file. You should save the processed information table locally in a CSV format and as a database table. Managers from different countries will query the database table to extract the list and note the market capitalization value in their own currency.
 
-| Parameter | Value |
-|---|---|
-| Code name | `banks_project.py` |
-| Data URL | `https://web.archive.org/web/20230908091635/https://en.wikipedia.org/wiki/List_of_largest_banks` |
-| Exchange rate CSV path | `https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-PY0221EN-Coursera/labs/v2/exchange_rate.csv` |
-| Table Attributes (upon Extraction only) | `Name`, `MC_USD_Billion` |
-| Table Attributes (final) | `Name`, `MC_USD_Billion`, `MC_GBP_Billion`, `MC_EUR_Billion`, `MC_INR_Billion` |
-| Output CSV Path | `./Largest_banks_data.csv` |
-| Database name | `Banks.db` |
-| Table name | `Largest_banks` |
-| Log file | `code_log.txt` |
+| Parameter                               | Value                                                                                                                             |
+| --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Code name                               | `banks_project.py`                                                                                                                |
+| Data URL                                | `https://web.archive.org/web/20230908091635/https://en.wikipedia.org/wiki/List_of_largest_banks`                                  |
+| Exchange rate CSV path                  | `https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-PY0221EN-Coursera/labs/v2/exchange_rate.csv` |
+| Table Attributes (upon Extraction only) | `Name`, `MC_USD_Billion`                                                                                                          |
+| Table Attributes (final)                | `Name`, `MC_USD_Billion`, `MC_GBP_Billion`, `MC_EUR_Billion`, `MC_INR_Billion`                                                    |
+| Output CSV Path                         | `./Largest_banks_data.csv`                                                                                                        |
+| Database name                           | `Banks.db`                                                                                                                        |
+| Table name                              | `Largest_banks`                                                                                                                   |
+| Log file                                | `code_log.txt`                                                                                                                    |
 
 Important Note:
 
