@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-green.svg)](https://shields.io/)
 
-This repository contains my submission for the final project in **[IBM Skills Network - Coursera: Python Project for Data Engineering](https://www.coursera.org/learn/python-project-for-data-engineering)**
+This repository contains my final project submission for **[IBM Skills Network - Coursera: Python Project for Data Engineering](https://www.coursera.org/learn/python-project-for-data-engineering)**
 
 ## Objectives
 
@@ -17,6 +17,8 @@ This repository contains my submission for the final project in **[IBM Skills Ne
 A multi-national firm has hired you as a data engineer. Your job is to access and process data as per requirements.
 
 Your boss asked you to compile the list of the top 10 largest banks in the world ranked by market capitalization in billion USD. Further, you need to transform the data and store it in USD, GBP, EUR, and INR per the exchange rate information made available to you as a CSV file. You should save the processed information table locally in a CSV format and as a database table. Managers from different countries will query the database table to extract the list and note the market capitalization value in their own currency.
+
+Particulars of the code to be made have been shared below.
 
 | Parameter                               | Value                                                                                                                             |
 | --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
@@ -50,6 +52,26 @@ In such a situation, try executing the code again. In case the problem persists,
     - Extract the information for New Delhi office, that is Name and MC_INR_Billion
 1. Write a function to log the progress of the code.
 1. While executing the data initialization commands and function calls, maintain appropriate log entries.
+
+## Usage
+
+Install the required libraries using the provided `requirements.txt` file. The command syntax is:
+
+```bash
+python3.11 -m pip install -r requirements.txt
+```
+
+Download the required exchange rate file using the terminal command:
+
+```bash
+wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-PY0221EN-Coursera/labs/v2/exchange_rate.csv
+```
+
+Execute the code using the command:
+
+```bash
+python3.11 banks_project.py
+```
 
 ## Learner
 
