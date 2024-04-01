@@ -1,5 +1,6 @@
 # Acquiring and Processing Information on the World's Largest Banks
 
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fpregismond%2Fibm-python-project-for-data-engineering&label=Visitors&countColor=%230d76a8&style=flat&labelStyle=none)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-green.svg)](https://shields.io/)
 
