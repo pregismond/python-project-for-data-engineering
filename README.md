@@ -4,7 +4,15 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-0D76A8?style=flat)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-green.svg)](https://shields.io/)
 
-This repository contains my final project submission for **[IBM Skills Network - Coursera: Python Project for Data Engineering](https://www.coursera.org/learn/python-project-for-data-engineering)**
+## Disclaimer
+
+This repository contains my submission for the ***Final Project: Acquiring and processing information on world's largest banks***. The original files were provided by the IBM Skills Network as part of the **[Python Project for Data Engineering](https://www.coursera.org/learn/python-project-for-data-engineering)** course on Coursera.
+
+### Usage
+
+* You are welcome to use this repository as a reference or starting point for your own project.
+
+* If you choose to fork this repository, please ensure that you comply with the terms of the Apache License and give proper credit to the original authors.
 
 ## Objectives
 
@@ -54,7 +62,7 @@ In such a situation, try executing the code again. In case the problem persists,
 1. Write a function to log the progress of the code.
 1. While executing the data initialization commands and function calls, maintain appropriate log entries.
 
-## Usage
+## Setup
 
 Install the required libraries using the provided `requirements.txt` file. The command syntax is:
 
@@ -78,8 +86,6 @@ python3.11 banks_project.py
 
 [Pravin Regismond](https://www.linkedin.com/in/pregismond)
 
-## Instructor
+## Acknowledgments
 
-[Abhishek Gagneja](https://www.coursera.org/instructor/~129186572), Python and AI Subject Matter Expert, @ IBM
-
-## <h3 align="center"> © IBM Corporation 2023. All rights reserved. <h3/>
+* IBM Skills Network © IBM Corporation 2023. All rights reserved.
